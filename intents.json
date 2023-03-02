@@ -1,0 +1,52 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good afternoon",
+          "Good evening"
+        ],
+        "responses": [
+          "Hi there, how can I help you?",
+          "Hello, what can I assist you with?",
+          "Hey, how can I be of service?",
+          "Good {time}, what can I do for you?"
+        ]
+      },
+      {
+        "tag": "products",
+        "patterns": [
+          "What products do you offer?",
+          "What kind of products do you sell?",
+          "Can you tell me about your products?",
+          "What can I buy from you?"
+        ],
+        "responses": [
+          "We offer a wide range of products, including electronics, clothing, and home goods. What are you interested in?",
+          "We have a variety of products available for purchase. What type of product are you looking for?",
+          "Our product selection includes electronics, clothing, and home goods. What specific product are you interested in?",
+          "We sell many different products. Can you be more specific about what you're looking for?"
+        ]
+      },
+      {
+        "tag": "electronics",
+        "patterns": [
+          "Do you sell electronics?",
+          "What kind of electronics do you have?",
+          "Can you tell me about your electronics?",
+          "I'm looking for an electronic product"
+        ],
+        "responses": [
+          "Yes, we offer a wide range of electronics, including smartphones, laptops, and gaming consoles. What specific electronic product are you interested in?",
+          "Our electronics selection includes smartphones, laptops, and gaming consoles. What type of electronic product are you looking for?",
+          "We have many different types of electronics available for purchase, including smartphones, laptops, and gaming consoles. What specific electronic product are you interested in?",
+          "We sell a variety of electronics. What type of electronic product are you looking for?"
+        ]
+      }
+    ]
+}
+  
